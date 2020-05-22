@@ -60,8 +60,12 @@ define([
             var $items = this.$('.sortable-item');
             var items = this.model.get('_items');
             for (var i = 0; i < $items.length; i++) {
-                var text = $items.eq(i).children('.sortable-item-text').html();
-                if (items[itemIndex].text === text) return $items.eq(i);
+                var text = $items.eq(i).children('.sortable-item-text').text();
+                if (items[itemIndex].text === text) {
+                    return $items.eq(i);
+                } else {
+                    return items[i];
+                }
             }
         },
 
