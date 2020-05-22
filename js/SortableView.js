@@ -63,8 +63,6 @@ define([
                 var text = $items.eq(i).children('.sortable-item-text').text();
                 if (items[itemIndex].text === text) {
                     return $items.eq(i);
-                } else {
-                    return items[i];
                 }
             }
         },
