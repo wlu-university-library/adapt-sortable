@@ -2,7 +2,7 @@
   "name": "adapt-sortable",
   "repository": "git://github.com/danielstorey/adapt-sortable.git",
   "framework": ">=5",
-  "version": "2.0.1",
+  "version": "2.0.7",
   "homepage": "https://github.com/danielstorey/adapt-sortable",
   "authors": [
     "Dan Storey <danielstorey@gmail.com>"
